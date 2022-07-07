@@ -19,6 +19,7 @@ import { RaceResultLookupComponent } from './race-result-lookup/race-result-look
 import { SettingsPageComponent } from './settings-page/settings-page.component';
 import { VideoPageComponent } from './video-page/video-page.component';
 import { GroupsComponent } from './groups/groups.component';
+import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { GroupsComponent } from './groups/groups.component';
     RaceResultLookupComponent,
     SettingsPageComponent,
     VideoPageComponent,
-    GroupsComponent
+    GroupsComponent,
+    NewsfeedComponent
   ],
   imports: [
     BrowserModule,
