@@ -37,7 +37,16 @@
     </table>
 </div>
 <br *ngIf="racerProfile.length != 0" />
-<div *ngIf="racerProfile.length != 0">
+<div *ngIf="racerProfile.length != 0"><b>Season Dedication Level: </b>
+    <i [ngClass]="{
+    'bronze' : this.riderSeasonlevel == 'Bronze',
+    'silver' : this.riderSeasonlevel == 'Silver',
+    'gold' : this.riderSeasonlevel == 'Gold',
+    'platinum' : this.riderSeasonlevel == 'Platinum',
+    'diamond' : this.riderSeasonlevel == 'Diamond',
+    'champion' : this.riderSeasonlevel == 'Champion' }">{{this.riderSeasonlevel}}</i>
+</div>
+<div *ngIf="racerProfile.length != 0" class="race-results">
     <table class="uk-table uk-table-striped">
         <thead>
             <tr>
@@ -50,7 +59,7 @@
             <tr *ngFor="let r of results; let i = index;">
                 <td>{{r.event.venue.name}}</td>
                 <td>{{r.racer_class}}</td>
-                <td>{{r.position_in_class}}</td>
+                <td class="center">{{r.position_in_class}}</td>
             </tr>
         </tbody>
     </table>

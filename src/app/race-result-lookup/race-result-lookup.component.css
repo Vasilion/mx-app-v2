@@ -1,6 +1,6 @@
 
 table, th, td {
-    border: 1px solid black;
+    border: .5px solid black;
     border-collapse: collapse;
     margin: 0 auto;
     width: auto;
@@ -10,6 +10,9 @@ table, th, td {
   }
   th {
     text-align: left;
+  }
+  .center{
+    text-align: center;
   }
 
 .racer-search-form {
@@ -51,7 +54,7 @@ table, th, td {
   .race-results{
     overflow:hidden;
     overflow-y: scroll;
-    height: 500px;
+    height: 350px;
   }
 
   .bronze{
