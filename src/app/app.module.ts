@@ -17,6 +17,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
 import { RaceResultLookupComponent } from './race-result-lookup/race-result-lookup.component';
 import { SettingsPageComponent } from './settings-page/settings-page.component';
+import { VideoPageComponent } from './video-page/video-page.component';
+import { GroupsComponent } from './groups/groups.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SettingsPageComponent } from './settings-page/settings-page.component';
     UserProfileComponent,
     MainHeaderComponent,
     RaceResultLookupComponent,
-    SettingsPageComponent
+    SettingsPageComponent,
+    VideoPageComponent,
+    GroupsComponent
   ],
   imports: [
     BrowserModule,

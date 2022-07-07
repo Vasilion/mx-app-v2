@@ -37,7 +37,7 @@
     </table>
 </div>
 <br *ngIf="racerProfile.length != 0" />
-<div *ngIf="racerProfile.length != 0"><b>Season Dedication Level: </b>
+<div class="center" *ngIf="racerProfile.length != 0"><b>Season Dedication Level: </b>
     <i [ngClass]="{
     'bronze' : this.riderSeasonlevel == 'Bronze',
     'silver' : this.riderSeasonlevel == 'Silver',

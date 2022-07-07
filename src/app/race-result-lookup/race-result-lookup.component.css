@@ -53,7 +53,7 @@ table, th, td {
   }
   .race-results{
     overflow:hidden;
-    overflow-y: scroll;
+    overflow-y:auto;
     height: 350px;
   }
 

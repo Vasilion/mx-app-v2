@@ -574,7 +574,7 @@ if ($.isFunction($.fn.owlCarousel)) {
 		
 //-- page caro
 	$('.page-caro').owlCarousel({
-		items: 6,
+		items: 3,
 		loop: true,
 		margin: 0,
 		autoplay: false,
@@ -586,14 +586,14 @@ if ($.isFunction($.fn.owlCarousel)) {
 		responsiveClass:true,
 			responsive:{
 				0:{
-					items:5,
+					items:3,
 				},
 				600:{
-					items:5,
+					items:3,
 
 				},
 				1000:{
-					items:6,
+					items:3,
 				}
 			}
 
