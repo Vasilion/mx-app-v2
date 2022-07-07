@@ -1,0 +1,75 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: auto;
+  }
+  th, td {
+    padding: 5px;
+  }
+  th {
+    text-align: left;
+  }
+
+.racer-search-form {
+    /* text-align: center;
+    min-width: 150px;
+    max-width: 500px;
+    margin-top: 25px */
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+
+  .half-width {
+    width: 50%;
+  }
+
+  .racer-search-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .racer-search-results{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .racer-profile{
+    text-align: left;
+    background-color: rgb(185, 185, 185);
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .race-results{
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 500px;
+  }
+
+  .bronze{
+    color:#CD7F32
+  }
+  .silver{
+    color:silver;
+  }
+  .gold{
+    color:gold;
+  }
+  .platinum{
+    color:rgb(229, 228, 226)
+  }
+  .diamond{
+    color:#b9f2ff 
+  }
+  .champion{
+    color:#dd0004
+  }
+  
